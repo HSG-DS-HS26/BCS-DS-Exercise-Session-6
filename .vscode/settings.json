@@ -1,0 +1,21 @@
+{
+  // Every program folder is a source root of its own: the folders start with a digit, which a
+  // package name can't, so the classes are in the default package. solution/ is left out: its
+  // classes have the same names as those in exercise/.
+  "java.project.sourcePaths": [
+    "common",
+    "exercise/01_platforms",
+    "exercise/02_timetable",
+    "exercise/03_departures",
+    "exercise/04_latetrains",
+    "exercise/05_delayminutes",
+    "exercise/06_sumthreeways",
+    "exercise/07_stationnames",
+    "exercise/08_worststations",
+    "exercise/09_punctuality",
+    "exercise/10_delayreport"
+  ],
+  "java.project.referencedLibraries": ["/opt/spark/jars/*.jar"],
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -Xmx768m -Xms100m",
+  "java.server.launchMode": "Standard"
+}

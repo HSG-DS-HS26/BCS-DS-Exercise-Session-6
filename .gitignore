@@ -1,0 +1,10 @@
+# Written by the cluster and run.sh 
+/data/hdfs/
+/data/spark-events/
+build/
+
+
+*.pptx
+
+.DS_Store
+tmp/
